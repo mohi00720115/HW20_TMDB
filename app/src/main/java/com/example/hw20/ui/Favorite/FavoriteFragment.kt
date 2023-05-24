@@ -1,13 +1,11 @@
-package com.example.hw20
+package com.example.hw20.ui.Favorite
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import com.example.hw20.R
 import com.example.hw20.databinding.FragmentFavoriteBinding
-import com.example.hw20.databinding.FragmentSearchBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 

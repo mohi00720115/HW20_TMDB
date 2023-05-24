@@ -1,4 +1,4 @@
-package com.example.hw20
+package com.example.hw20.ui
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
