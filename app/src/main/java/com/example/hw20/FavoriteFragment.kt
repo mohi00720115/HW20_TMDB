@@ -8,8 +8,10 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.hw20.databinding.FragmentFavoriteBinding
 import com.example.hw20.databinding.FragmentSearchBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 
+@AndroidEntryPoint
 class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
     private lateinit var binding: FragmentFavoriteBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
