@@ -14,9 +14,3 @@ interface TmdbService {
     @GET("movie/upcoming")
     suspend fun getUpComingMovies(@Query("page") page: Int = 1)
 }
-
-//https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1
-
-//https://api.themoviedb.org/3/movie/popular?language=en-US&page=1
-
-//https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1
