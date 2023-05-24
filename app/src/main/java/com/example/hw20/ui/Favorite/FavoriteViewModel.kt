@@ -1,4 +1,4 @@
-package com.example.hw20.ui.Favorite
+package com.example.hw20.ui.favorite
 
 class FavoriteViewModel {
 }
