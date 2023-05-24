@@ -5,12 +5,15 @@
 
     <data>
 
+        <variable
+            name="HomeViewModel"
+            type="com.example.hw20.ui.home.HomeViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.Home.HomeFragment">
+        tools:context=".ui.home.HomeFragment">
 
 
         <androidx.core.widget.NestedScrollView
